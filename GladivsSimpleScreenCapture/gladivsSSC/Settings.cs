@@ -24,21 +24,21 @@ using gladivsSSC.Helpers;
 
 namespace gladivsSSC
 {
-    public partial class Configuracio : Form
+    public partial class Settings : Form
     {
         private bool _idiomaCanviat = false;
         private string _llengua;
 
-        public Configuracio()
+        public Settings()
         {
             InitializeComponent();
 
-            txtRutaDesat.Text = Settings.Default.CapturesPath;
-            folderBrowserDialog1.SelectedPath = Settings.Default.CapturesPath;
+            txtRutaDesat.Text = Properties.Settings.Default.CapturesPath;
+            folderBrowserDialog1.SelectedPath = Properties.Settings.Default.CapturesPath;
             btnCancelar.Select();
 
             //Fixa  l'idioma actual de la aplicació en el combobox com a llengua sel·leccionada
-            switch(Settings.Default.DefaultLang)
+            switch(Properties.Settings.Default.DefaultLang)
             {
                 case null:
                     comboBox1.SelectedIndex = 0;

@@ -259,7 +259,7 @@ namespace gladivsSSC
         /// <param name="e"></param>
         private void settingsToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Configuracio cg = new Configuracio();
+            Settings cg = new Settings();
 
             cg.ShowDialog();
         }
@@ -354,7 +354,7 @@ namespace gladivsSSC
         /// <param name="e"></param>
         private void Rfrm_MouseDoubleClick(object sender, MouseEventArgs e)
         {
-            WindowState = Settings.Default.AfterCaptureWindowState;
+            WindowState = Properties.Settings.Default.AfterCaptureWindowState;
 
             boxViewer.Image = _regionCapture.Screenshot;
             boxViewer.Width = _regionCapture.Screenshot.Width;
@@ -539,6 +539,16 @@ namespace gladivsSSC
             sz.Height = Convert.ToInt32(flHeight);
 
             _zoomImage = new Bitmap(_capture, sz);
+        }
+
+        /// <summary>
+        /// Restaura la finestra al fer doble clic sobre la icona a l'àrea de notificació
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void notifyIcon1_MouseDoubleClick(object sender, MouseEventArgs e)
+        {
+            RestoreWindow();
         }
 
         #endregion
@@ -888,6 +898,5 @@ namespace gladivsSSC
 
 
         #endregion
-
     }
 }

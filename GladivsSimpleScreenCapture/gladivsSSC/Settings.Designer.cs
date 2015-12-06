@@ -1,6 +1,6 @@
 ﻿namespace gladivsSSC
 {
-    partial class Configuracio
+    partial class Settings
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Configuracio));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Settings));
             this.label1 = new System.Windows.Forms.Label();
             this.txtRutaDesat = new System.Windows.Forms.TextBox();
             this.btnCancelar = new System.Windows.Forms.Button();
