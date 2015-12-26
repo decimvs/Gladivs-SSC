@@ -82,18 +82,14 @@
             this.btnExaminar.UseVisualStyleBackColor = true;
             this.btnExaminar.Click += new System.EventHandler(this.btnExaminar_Click);
             // 
-            // folderBrowserDialog1
-            // 
-            resources.ApplyResources(this.folderBrowserDialog1, "folderBrowserDialog1");
-            // 
             // pnStringsAmagats
             // 
-            resources.ApplyResources(this.pnStringsAmagats, "pnStringsAmagats");
             this.pnStringsAmagats.Controls.Add(this.msgCaptionVerificarReinici);
             this.pnStringsAmagats.Controls.Add(this.msgVerificacioReiniciarAplicacio);
             this.pnStringsAmagats.Controls.Add(this.msgErrorCaptionGeneric);
             this.pnStringsAmagats.Controls.Add(this.msgErrorNoPermesRutaDesatCaptruresBlanc);
             this.pnStringsAmagats.Controls.Add(this.msgErrorCreantDirectoriDesatCaptures);
+            resources.ApplyResources(this.pnStringsAmagats, "pnStringsAmagats");
             this.pnStringsAmagats.Name = "pnStringsAmagats";
             // 
             // msgCaptionVerificarReinici
@@ -134,7 +130,6 @@
             // 
             // comboBox1
             // 
-            resources.ApplyResources(this.comboBox1, "comboBox1");
             this.comboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBox1.Items.AddRange(new object[] {
             resources.GetString("comboBox1.Items"),
@@ -142,28 +137,29 @@
             resources.GetString("comboBox1.Items2"),
             resources.GetString("comboBox1.Items3"),
             resources.GetString("comboBox1.Items4")});
+            resources.ApplyResources(this.comboBox1, "comboBox1");
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
             // groupBox1
             // 
-            resources.ApplyResources(this.groupBox1, "groupBox1");
             this.groupBox1.Controls.Add(this.txtRutaDesat);
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Controls.Add(this.btnExaminar);
             this.groupBox1.Controls.Add(this.ckbAutoDesatCaptures);
+            resources.ApplyResources(this.groupBox1, "groupBox1");
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.TabStop = false;
             // 
             // groupBox2
             // 
-            resources.ApplyResources(this.groupBox2, "groupBox2");
             this.groupBox2.Controls.Add(this.comboBox1);
             this.groupBox2.Controls.Add(this.label2);
+            resources.ApplyResources(this.groupBox2, "groupBox2");
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.TabStop = false;
             // 
-            // Configuracio
+            // Settings
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -176,7 +172,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
-            this.Name = "Configuracio";
+            this.Name = "Settings";
             this.ShowInTaskbar = false;
             this.pnStringsAmagats.ResumeLayout(false);
             this.pnStringsAmagats.PerformLayout();

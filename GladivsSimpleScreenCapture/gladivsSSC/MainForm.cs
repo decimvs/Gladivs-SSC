@@ -627,6 +627,7 @@ namespace gladivsSSC
                         else
                         {
                             //Valors no poden ser igual a zero o buits
+                            MessageBox.Show(this, "The width and height accepts only numbers great than 0");
                         }
                     }
                     catch

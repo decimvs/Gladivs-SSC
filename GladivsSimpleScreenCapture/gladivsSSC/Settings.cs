@@ -21,6 +21,7 @@ using System;
 using System.Windows.Forms;
 using gladivsSSC.Properties;
 using gladivsSSC.Helpers;
+using System.IO;
 
 namespace gladivsSSC
 {
@@ -43,7 +44,7 @@ namespace gladivsSSC
                 case null:
                     comboBox1.SelectedIndex = 0;
                     break;
-                case "ca-ES":
+                case "ca":
                     comboBox1.SelectedIndex = 1;
                     break;
                 case "en":
@@ -136,7 +137,7 @@ namespace gladivsSSC
         /// <returns></returns>
         private bool DesarIdioma()
         {
-            if(_llengua != Properties.Settings.Default.DefaultLang)
+            if(_llengua != null && _llengua != Properties.Settings.Default.DefaultLang)
             {
                 Properties.Settings.Default.DefaultLang = _llengua;
                 _idiomaCanviat = true;
@@ -162,8 +163,10 @@ namespace gladivsSSC
             if (txtRutaDesat.Text != String.Empty)
             {
                 //Executem la funció de verificació i creació de directoris definits
-                if (FileSystem.VerifyPathToCapturesFolder(false, txtRutaDesat.Text))
+                if (Directory.Exists(txtRutaDesat.Text))
                 {
+                    Properties.Settings.Default.CapturesPath = txtRutaDesat.Text;
+                    Properties.Settings.Default.Save();
                     return true;
                 }
                 else
@@ -213,7 +216,7 @@ namespace gladivsSSC
                     _llengua = null;
                     break;
                 case 1:
-                    _llengua = "ca-ES";
+                    _llengua = "ca";
                     break;
                 case 2:
                     _llengua = "en";

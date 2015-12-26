@@ -326,77 +326,80 @@
   <data name="tsbtConstraitProportions.Text" xml:space="preserve">
     <value>toolStripButton5</value>
   </data>
+  <data name="tsbtConstraitProportions.ToolTipText" xml:space="preserve">
+    <value>Constrait image proportions</value>
+  </data>
   <data name="toolStripSeparator3.Size" type="System.Drawing.Size, System.Drawing">
     <value>6, 35</value>
   </data>
   <data name="toolStripMenuItem5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>108, 22</value>
+    <value>152, 22</value>
   </data>
   <data name="toolStripMenuItem5.Text" xml:space="preserve">
     <value>1000%</value>
   </data>
   <data name="toolStripMenuItem6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>108, 22</value>
+    <value>152, 22</value>
   </data>
   <data name="toolStripMenuItem6.Text" xml:space="preserve">
     <value>800%</value>
   </data>
   <data name="toolStripMenuItem7.Size" type="System.Drawing.Size, System.Drawing">
-    <value>108, 22</value>
+    <value>152, 22</value>
   </data>
   <data name="toolStripMenuItem7.Text" xml:space="preserve">
     <value>600%</value>
   </data>
   <data name="toolStripMenuItem8.Size" type="System.Drawing.Size, System.Drawing">
-    <value>108, 22</value>
+    <value>152, 22</value>
   </data>
   <data name="toolStripMenuItem8.Text" xml:space="preserve">
     <value>400%</value>
   </data>
   <data name="toolStripMenuItem9.Size" type="System.Drawing.Size, System.Drawing">
-    <value>108, 22</value>
+    <value>152, 22</value>
   </data>
   <data name="toolStripMenuItem9.Text" xml:space="preserve">
     <value>300%</value>
   </data>
   <data name="toolStripMenuItem10.Size" type="System.Drawing.Size, System.Drawing">
-    <value>108, 22</value>
+    <value>152, 22</value>
   </data>
   <data name="toolStripMenuItem10.Text" xml:space="preserve">
     <value>200%</value>
   </data>
   <data name="toolStripMenuItem11.Size" type="System.Drawing.Size, System.Drawing">
-    <value>108, 22</value>
+    <value>152, 22</value>
   </data>
   <data name="toolStripMenuItem11.Text" xml:space="preserve">
     <value>100%</value>
   </data>
   <data name="toolStripMenuItem12.Size" type="System.Drawing.Size, System.Drawing">
-    <value>108, 22</value>
+    <value>152, 22</value>
   </data>
   <data name="toolStripMenuItem12.Text" xml:space="preserve">
     <value>75%</value>
   </data>
   <data name="toolStripMenuItem13.Size" type="System.Drawing.Size, System.Drawing">
-    <value>108, 22</value>
+    <value>152, 22</value>
   </data>
   <data name="toolStripMenuItem13.Text" xml:space="preserve">
     <value>66%</value>
   </data>
   <data name="toolStripMenuItem14.Size" type="System.Drawing.Size, System.Drawing">
-    <value>108, 22</value>
+    <value>152, 22</value>
   </data>
   <data name="toolStripMenuItem14.Text" xml:space="preserve">
     <value>50%</value>
   </data>
   <data name="toolStripMenuItem15.Size" type="System.Drawing.Size, System.Drawing">
-    <value>108, 22</value>
+    <value>152, 22</value>
   </data>
   <data name="toolStripMenuItem15.Text" xml:space="preserve">
     <value>33%</value>
   </data>
   <data name="toolStripMenuItem16.Size" type="System.Drawing.Size, System.Drawing">
-    <value>108, 22</value>
+    <value>152, 22</value>
   </data>
   <data name="toolStripMenuItem16.Text" xml:space="preserve">
     <value>25%</value>

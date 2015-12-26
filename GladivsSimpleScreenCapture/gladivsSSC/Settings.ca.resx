@@ -118,6 +118,43 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 13</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Ruta desat</value>
+  </data>
+  <data name="btnCancelar.Text" xml:space="preserve">
+    <value>Cancel·lar</value>
+  </data>
+  <data name="btnDesar.Text" xml:space="preserve">
+    <value>Desar</value>
+  </data>
+  <data name="btnExaminar.Text" xml:space="preserve">
+    <value>Triar</value>
+  </data>
+  <data name="pnStringsAmagats.Location" type="System.Drawing.Point, System.Drawing">
+    <value>497, 252</value>
+  </data>
+  <data name="ckbAutoDesatCaptures.Size" type="System.Drawing.Size, System.Drawing">
+    <value>191, 17</value>
+  </data>
+  <data name="ckbAutoDesatCaptures.Text" xml:space="preserve">
+    <value>Activar l'auto desat de les captures
+</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>84, 22</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 13</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Llengua predeterminada</value>
+  </data>
+  <data name="groupBox2.Text" xml:space="preserve">
+    <value>Llengua</value>
+  </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         AAABAAMAEBAAAAEAIABoBAAANgAAACAgAAABACAAqBAAAJ4EAAAwMAAAAQAgAKglAABGFQAAKAAAABAA
@@ -373,5 +410,8 @@
         gAH4fwAA///AA///AAD//8AD//8AAP//wAP//wAA///AA///AAD//8AD//8AAP//wAP//wAA////////
         AAD///////8AAP///////wAA////////AAA=
 </value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Paràmetres</value>
   </data>
 </root>
